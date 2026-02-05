@@ -37,7 +37,7 @@
 				preload: 'metadata',
 				volume: 0.8,
 				muted: false,
-				backgroundColor: '#000000',
+				backgroundColor: '#555555',
 				errorAlerts: false,
 				warningAlerts: false
 			});
