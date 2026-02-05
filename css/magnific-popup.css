@@ -299,10 +299,10 @@ img.mfp-img {
 
 .white-popup {
   position: relative;
-  background: #FFF;
+  background: #161515;
   padding: 20px;
   width: auto;
-  max-width: 500px; /* Ajusta según sea necesario */
+  max-width: 500px;
   margin: 20px auto;
   max-height: 80vh;
   overflow-y: auto;
