@@ -820,6 +820,11 @@ ol {
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
+
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #1D1F1D;
 }
 
 .youtube__item__pic .play-btn {
@@ -2945,3 +2950,27 @@ ol {
 		background-position: top 0 left 19%;
 	}
 }
+
+@media (max-width: 768px) {
+	
+    .youtube__item__pic {
+        height: 70vh;
+        max-height: 520px;
+    }
+
+    .countdown {
+        padding-bottom: 200px;
+        background-position: center center;
+    }
+
+    .footer {
+        margin-top: 0;
+        height: auto;
+        padding-top: 120px;
+    }
+
+    .set-bg {
+        background-position: center center;
+    }
+}
+
